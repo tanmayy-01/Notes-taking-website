@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Notes</title>
+  <link href="style.css" rel="stylesheet"/>
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <nav>
+    Notes taking app
+  </nav>
+  <div class="notes">
+    <textarea name="" id="note" cols="30" rows="5" placeholder="Enter your notes to add"></textarea>
+    <button style="margin: 23px 5px 5px 5px" onclick="AddNote()">Add Note</button>
+    <button onclick="Clear()">Clear Input Field</button>
+    <button onclick="Remove()">Delete Last Note</button>
+    <button onclick="RemoveAll()">Delete All Notes</button>
+    <input type="text" placeholder="Enter Heading for your Notes" id="headnote">
+    <button onclick="pdf()">Save</button>
+  </div>
+
+  <div class="btn" id="notes">
+
+    <div class="clr">
+      <h3 class="headdiv">Notes</h3>
+      <br>
+      <br>
+    </div>
+  </div>
+
+</body>
+
+</html>
